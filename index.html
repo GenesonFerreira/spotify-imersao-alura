@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
     <link rel="stylesheet" href="./src/styles/reset.css"> <!-- importa o reset de todos os estilos pre-definidos do css -->
+    <link rel="stylesheet" href="./src/styles/vars.css">
     <link rel="stylesheet" href="./src/styles/sidebar-navigation.css"> <!-- importa a classe com os estilos definidos de css  -->
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
 
 
     <link 
@@ -84,12 +86,35 @@
 
         </div> <!-- fechamento da barra da esquerda -->
 
+        <main>
+            <div class="main-container">
+                <nav class="header__navigation">
+                    <div class="navigation">
+                        <button class="arrow-left">
+                            <img src="./src/assets/icons/small-left.png" alt=" Seta esquerda">
+                        </button>
+                        <button class="arrow-left">
+                            <img src="./src/assets/icons/small-right.png" alt=" Seta direita">
+                        </button>
+                    </div>
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                    </div>
+                     <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </nav>
+            </div>
+        </main>
+
         <footer class="disclaimer-premium">
             <div class="text">
                 <p class="disclaimer-premium__title">Testar o Premium de graça</p>
                 <p class="disclaimer-premium__subtitle">
-                    Inscreva-se para curtir música ilimitada e podcasts só com alguns
-                    anúncios. Não precisa de cartão de crédito.
+                    Inscreva-se para curtir músicas ilimitadas e podcasts só com alguns
+                    anúncios. Sem precisar do cartão de crédito.
                 </p>
             </div>
             <div class="button">
