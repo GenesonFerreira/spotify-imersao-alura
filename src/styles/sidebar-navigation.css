@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(114, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 
 .sidebar {
@@ -12,13 +12,13 @@ body {
 }
 
 .sidebar__naviagtion {
-    background-color: #211f1f;
+    background-color: #1d1d1d;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar__naviagtion.logo {
-    background: #2f2d2d;
+    background: #3e3e3e;
     display: flex;
     border-radius: 8px;
     padding: 16 0 0 16px;
@@ -46,7 +46,7 @@ body {
 }
 
 .library {
-    background-color: #211f1f;
+    background-color: #1d1d1d;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -94,7 +94,7 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #151515;
+    background-color: #252525;
     color: #dfdcdc;
     font-weight: 600;
     font-size: 14px;
@@ -110,7 +110,7 @@ body {
 
 .section-playlist__content .text{
     padding-bottom: 14px;
-    color: #fff;
+    color: #ffffff;
     font-family: "DM Sans", sans-serif;
 }
 
@@ -126,7 +126,7 @@ body {
 .section-playlist__content .section-playlist__button{
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #000;
     border-radius: 20px;
     font-size: 12px;
@@ -153,14 +153,14 @@ body {
 
 .sidebar .cookies a:hover{
     text-decoration: underline;
-    color: #ff0000;
+    color: #962f87;
 }
 
 .languages .languages-button{
     align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
-    color: #fff;
+    color: #ffffff;
     font-weight: bold;
     cursor: pointer;
     width: 170px;
@@ -168,6 +168,3 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
-
-
-

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
-    <link rel="stylesheet" href="reset.css"> <!-- importa o reset de todos os estilos pre-definidos do css -->
-    <link rel="stylesheet" href="styles.css"> <!-- importa a classe com os estilos definidos de css  -->
+    <link rel="stylesheet" href="./src/styles/reset.css"> <!-- importa o reset de todos os estilos pre-definidos do css -->
+    <link rel="stylesheet" href="./src/styles/sidebar-navigation.css"> <!-- importa a classe com os estilos definidos de css  -->
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+
 
     <link 
     rel="stylesheet"
@@ -23,12 +25,12 @@
 
     </head>
     <body>
-        <div class="sidebar"> <!-- PRIMEIRA SESSÃO da barra esquerda -->
+        <div class="sidebar"> <!-- Barra Geral da esquerda -->
 
             <nav class="sidebar__naviagtion"> <!-- primeira sessão do barra esquerda -->
                 <div class="logo"> <!-- trabalhando primeira parte do codigo com img -->
                     <a href="">
-                        <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
+                        <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
                     </a>
                 </div> <!-- fechando primeira parte do codigo com img -->
 
@@ -80,6 +82,20 @@
             </div><!-- fechamento da segunda sessão da barra esquerda -->
 
 
-        </div> <!-- fechamento da PRIMEIRA SESSÃO da barra da esquerda -->
+        </div> <!-- fechamento da barra da esquerda -->
+
+        <footer class="disclaimer-premium">
+            <div class="text">
+                <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+                <p class="disclaimer-premium__subtitle">
+                    Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                    anúncios. Não precisa de cartão de crédito.
+                </p>
+            </div>
+            <div class="button">
+                <button type="button">Inscreva-se grátis</button>
+            </div>
+        </footer>
+        
     </body>
 </html>
